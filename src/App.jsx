@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div style={bgImage} className="overflow-hidden min-h-screen bg-[url('/Assets/inside-fondo.png')] bg-cover bg-bottom sm:bg-contain sm:bg-top sm:h-[50vh]">
+    <div style={bgImage} className="overflow-hidden min-h-screen bg-[url('/Assets/inside-fondo.png')] bg-cover bg-bottom sm:bg-contain sm:bg-top sm:h-[100vh]">
     <Navbar/>
     <Content/>
     </div>
