@@ -7,17 +7,23 @@ function App() {
   const bgImage = {
     backgroundImage: `url(${Font})`,
     backgroundRepeat: "no repeat",
-    backgroundPosition: "bottom",
+    backgroundPosition: "top",
     backgroundSize: "cover",
     position: "relative"
   }
 
   return (
-    <div style={bgImage} className="overflow-hidden min-h-screen bg-[url('/Assets/inside-fondo.png')] bg-cover bg-bottom sm:bg-contain sm:bg-top sm:h-[100vh]">
+   
+      <div style={bgImage} className="overflow-hidden min-h-screen bg-[url('/Assets/inside-fondo.png')] bg-cover bg-bottom g-[length:00px_00px] sm:bg-no-repeat sm:bg-top">
     <Navbar/>
     <Content/>
     </div>
+
   )
 }
 
 export default App
+
+
+
+
