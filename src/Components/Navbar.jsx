@@ -1,5 +1,25 @@
 import LogoNav from '../Assets/logo-inside2.png'
 
+const navbarLinks = [
+    {
+id: 1,
+title: 'inicio',
+link: '/'
+},
+{
+    id: 2,
+    title: 'Planes',
+    link: '#'
+    },
+{
+        id: 3,
+        title: 'Contacto',
+        link: '#'
+        },
+]
+
+
+
 const Navbar = () => {
   return (
     <nav>
@@ -9,15 +29,17 @@ const Navbar = () => {
             </div>
             <div>
                 <ul>
-                    <li>ejemplo</li>
-                    <li>ejemplo</li>
+             <li></li>
                 </ul>
             </div>
 
             <div>
                 <ul>
-                    <li>redes</li>
-                    <li>redes</li>
+                   {navbarLinks.map((link)=>(
+                <li key={link.id}>
+                    <a>{link.title}</a>
+                </li>
+                   ))}
                 </ul>
             </div>
 
