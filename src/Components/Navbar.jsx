@@ -26,6 +26,12 @@ const navbarRedes = [
     link: "aca va la pagina de instagram a linkear",
     icon: "/icons/instagram.png",
   },
+  {
+    id: 2,
+    title: "Whatsapp",
+    link: "aca va el whatsapp a linkear",
+    icon: "/icons/whatsapp.png",
+  },
 ];
 
 const Navbar = () => {
