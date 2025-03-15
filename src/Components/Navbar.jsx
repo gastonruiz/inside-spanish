@@ -23,13 +23,13 @@ const navbarRedes = [
   {
     id: 1,
     title: "Instagram",
-    link: "aca va la pagina de instagram a linkear",
+    link: "aca va el link a instagram",
     icon: "/icons/instagram.png",
   },
   {
     id: 2,
     title: "Whatsapp",
-    link: "aca va el whatsapp a linkear",
+    link: "https://wa.me/5491165550814",
     icon: "/icons/whatsapp.png",
   },
 ];
@@ -95,7 +95,7 @@ const Navbar = () => {
         </div>
         {/*menu desktop redes*/}
         <div className="hidden md:block">
-          <ul className="flex space-x-4 ">
+          <ul className="flex space-x-4">
             {navbarRedes.map((red) => (
               <li key={red.id}>
                 <a
@@ -143,7 +143,7 @@ const Navbar = () => {
                   <img
                     src={red.icon}
                     alt={red.title}
-                    className={`${red.icon} w-6 h-6`}
+                    className={`${red.icon} w-6 h-6 m-2`}
                   />
                 </a>
               </li>

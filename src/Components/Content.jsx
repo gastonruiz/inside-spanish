@@ -8,7 +8,7 @@ const Content = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2">
 
-        <div className="text-2xl bg-white/70 backdrop-blur-md py-9 rounded-xl md:mt-38 md:mx-12 md:px-10">
+        <div className="text-2xl bg-white/70 backdrop-blur-md py-9 rounded-xl md:mt-38 md:mx-12 md:px-10 m-4">
 <p>Aprende a hablar español de una manera rápida y eficaz.
    Con mi método aprenderás a hablar español 
   ya sea que vayas de vacaciones o viajes por trabajo 
